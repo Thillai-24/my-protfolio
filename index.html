@@ -1,0 +1,200 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thillai Raja | Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eef1f7;
+            color: #333;
+        }
+
+        /* HEADER */
+        header {
+            background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+            color: #fff;
+            padding: 3rem 2rem 4rem 2rem;
+            position: relative;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        /* PROFILE PIC */
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            object-fit: cover;
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.25);
+        }
+
+        .header-content h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        .header-content p {
+            font-size: 1.15rem;
+            margin-top: 5px;
+            opacity: 0.95;
+        }
+
+        /* NAVBAR */
+        nav {
+            background-color: #0f172a;
+            color: #fff;
+            padding: 0.8rem 0;
+            text-align: center;
+        }
+
+            nav ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+
+                nav ul li {
+                    display: inline;
+                    margin: 0 18px;
+                }
+
+                    nav ul li a {
+                        color: #cbd5e1;
+                        text-decoration: none;
+                        font-weight: 500;
+                        font-size: 1rem;
+                    }
+
+                        nav ul li a:hover {
+                            color: #fff;
+                        }
+
+        /* SECTIONS */
+        section {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            margin-bottom: 1rem;
+            color: #1e3a8a;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        ul.skills-list, ul.projects-list, ul.education-list {
+            list-style-type: square;
+            margin-left: 1.5rem;
+        }
+
+        /* BUTTON */
+        .download-button {
+            background-color: #1e3a8a;
+            color: #fff;
+            padding: 10px 22px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+            .download-button:hover {
+                background-color: #3748a1;
+            }
+
+        footer {
+            background: #0f172a;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <img src="./thillai.jpeg" class="profile-picture" alt="Thillai Raja P">
+        <div class="header-content">
+            <h1>THILLAI RAJA P</h1>
+            <p>Bachelor of Computer Applications | Aspiring Data Engineer</p>
+        </div>
+    </header>
+
+    <!-- NAVBAR -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I Am Thillai Raja, A Passionate And Self-Driven BCA Student With A Strong Interest In Web Development, Cloud Technologies, And Problem-Solving. I Enjoy Learning New Tools, Building Simple But Impactful Projects, And Turning Ideas Into Working Solutions. With A Positive Attitude And A Commitment To Continuous Improvement, I Aim To Grow Into A Skilled IT Professional Who Contributes Effectively In A Team Environment. I Believe In Smart Work, Clarity, And Consistency — And I Always Look Forward To Learning Something New Every Day.</p>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education">
+        <h2>Education</h2>
+        <ul class="education-list">
+            <li>Bachelor of Computer Applications (BCA) - 2026 | 75%</li>
+            <li>12th Standard - 2023 | 86%</li>
+        </ul>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>SQL, Database Management, DBMS concepts</li>
+            <li>Python Programming & Data Analysis</li>
+            <li>HTML, CSS, JavaScript, Web Development</li>
+            <li>Basic AWS and Cloud Computing</li>
+            <li>Project Management & Problem Solving</li>
+        </ul>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul class="projects-list">
+            <li>Event Registration System - Built using HTML, CSS, JS, and backend database</li>
+            <li>All-in-One Utility App - .NET-based application with multiple features</li>
+            <li>Grocery Shop Billing Software - Developed using [tech stack]</li>
+        </ul>
+    </section>
+
+    <!-- RESUME SECTION -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>You can download my resume by clicking the button below:</p>
+        <a href="./thillairesume.pdf" class="download-button" target="_blank">Download Resume</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        &copy; 2025 Thillai Raja P | All Rights Reserved
+    </footer>
+
+</body>
+</html>
